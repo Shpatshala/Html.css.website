@@ -535,11 +535,16 @@ section.team-members li{
 
 section.team-members .member .sc-medias ul{
     width: 60%;
-    margin: 0 auto;
-    margin-top: 15%;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+}
+
+section.team-members .member .sc-medias{
+    width: 100%;
+    margin-top: 47px;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
     
     section.team-members .member .sc-medias ul li{
@@ -551,10 +556,11 @@ section.team-members .member .sc-medias ul{
         border-top-right-radius: 10px;
         transition: all ;
         display: flex;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
         margin: 0 auto;
-    }
+        
+    } 
     
     
     section.team-members .member .sc-medias ul li a i{
@@ -1375,7 +1381,7 @@ section.team-members li{
 section.team-members .member .sc-medias ul{
     width: 60%;
     margin: 0 auto;
-    margin-top: 16%;
+    margin-top: 46px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2337,7 +2343,7 @@ section.team-members .member .sc-medias ul{
 width: 70%;
 margin: 0 auto;
 /* padding-left: 10%; */
-margin-top: 23%;
+margin-top:56px ;
 }
 
 section.team-members .member .sc-medias ul li{
